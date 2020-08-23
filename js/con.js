@@ -1,5 +1,4 @@
-
-var accessToken = "e0b8ba1f24ab4c6699e19909835422cf"                         //"1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c" //"e0b8ba1f24ab4c6699e19909835422cf";
+var accessToken = "e0b8ba1f24ab4c6699e19909835422cf";
     var baseUrl = "https://api.dialogflow.com/v1/";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
@@ -153,8 +152,8 @@ var accessToken = "e0b8ba1f24ab4c6699e19909835422cf"                         //"
       $.ajax({
            
         type: "POST",
-           //20150910
-        url: baseUrl + "query?v=",
+           
+        url: baseUrl + "query?v=20150910",
       //  console.log("++lineAfter_baseUrl");  
         contentType: "application/json; charset=utf-8",
         dataType: "json",
